@@ -1,0 +1,15 @@
+/**
+公共样式
+*/
+@import "~antd/dist/antd.css";
+/*  logo  */
+.ant-layout-sider-children .logo{
+    height: 32px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+    color:#fff;
+    overflow: hidden;
+}

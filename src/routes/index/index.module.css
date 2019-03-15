@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:rgba(244,244,244,1);
+}
+/* 一行文本超出部分省略号显示 */
+.gushy{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+/* 标题两行文本超出部分省略号显示 */
+/* .gushy_two{
+
+} */
+.Topimg{
+    width:100vw;
+    height:4.04rem;
+}
+.Center_width,.jump_img{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+.recommended{
+    width:calc( 100vw - 1.6rem);
+    padding:.4rem;
+    background:rgba(255,255,255,1);
+    position:relative;
+    margin-top:-0.93rem;
+    border-radius:.08rem;
+    justify-content:space-between;
+    align-items:center;
+}
+.jump_img{
+    height:.6rem;
+    justify-content:flex-end;
+}
+.jump_img>img{
+    width:.6rem;
+    height:.6rem;
+}
+.Market{
+    height:.34rem;
+    margin-top:.12rem;
+    font-size:.2rem;
+    color:rgba(102,102,102,1);
+    line-height:.34rem;
+}
+.recommended,.between_parties,.Would_like,.Likes_allF,.Today_recom{
+    display:flex;
+    flex-direction:row;
+}   
+/* 今日推荐 */
+.Today_recom>span{
+    width:.08rem;
+    height:.4rem;
+    background:rgba(13,61,111,1);
+    border-radius:.06rem;
+    margin-right:.2rem;
+}
+.Today_recom{
+    width:calc( 100vw - .8rem);
+    font-size:.36rem;
+    font-weight:bold;
+    color:rgba(26,43,58,1);
+    line-height:.5rem;
+    padding:.6rem 0 .24rem 0;
+    align-items:center;
+}
+/* 下部分列表 */
+.obviously{
+    padding:0 0.4rem;
+    background:rgba(255,255,255,1);
+    border-radius:.08rem;
+}
+.between_parties{
+    width:calc( 100vw - 1.6rem);
+    padding:0.4rem 0 0.4rem 0;
+    border-bottom:.01rem solid #F4F4F4;
+    justify-content:space-between;
+}
+.WHY_ITS{
+    width:3.72rem;
+    /* height:2.14rem; */
+    /* background:pink; */
+}
+.WHY_Rights{
+    /* width:2rem; */
+    /* height:2.14rem; */
+    /* background:pink; */
+}
+.Title_text{
+    /* font-size:.32rem; */
+    font-size:.3rem;
+    font-weight:bold;
+    color:rgba(26,43,58,1);
+    line-height:.44rem;
+    /* height:.88rem; */
+}
+.WHY_ITS>p{
+    font-size:.28rem;
+    color:rgba(153,153,153,1);
+    line-height:.4rem;
+    padding:.22rem 0 .24rem 0;
+}
+.Likes_allF{
+    height:.34rem;
+    align-items:center;
+}
+.Likes_allF>img{
+    width:.24rem;
+    height:.24rem;
+}
+.Likes_allF>span{
+    width:.94rem;
+    font-size:.24rem;
+    color:rgba(153,153,153,1);
+    line-height:.34rem;
+    margin-left:.12rem;
+}
+.WHY_Rights>img{
+    width:2rem;
+    height:1.5rem;
+    margin-bottom:.18rem;
+}
+.WHY_Rights>p{
+    font-size:.24rem;
+    color:rgba(153,153,153,1);
+    text-align:right;
+    line-height:.34rem;
+}
